@@ -1,0 +1,32 @@
+{
+  "orgName": "Continuation Exemple",
+  "edition": "Enterprise",
+  "features": [
+    "ContactsToMultipleAccounts",
+    "PersonAccounts",
+    "ServiceCloud",
+    "StateAndCountryPicklist",
+    "Communities",
+    "Sites",
+    "Knowledge"
+  ],
+  "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true,
+      "enableCommunityWorkspaces": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "surveySettings": {
+      "enableSurvey": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    }
+  },
+  "language": "en_US"
+}

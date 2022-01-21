@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Chamada de Serviço</masterLabel>
+    <description>Visualize informações da resposta do serviço</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="iconName" label="Ícone" type="String" default="standard:product_transfer" description="Nome do ícone de acordo com o Lightning Design System."></property>
+            <property name="title" label="Título" type="String" default="Chamada de Serviço" description="Título do componente."></property>
+            <property name="method" label="Verbo de chamada da API" type="String" description="Verbo estipulado para a chamada de API"></property>
+            <property name="endpoint" label="URL" type="String" description="URL do endpoint à ser chamado"></property>
+        </targetConfig>
+        <targetConfig targets="lightning__HomePage">
+            <property name="iconName" label="Ícone" type="String" default="standard:product_transfer" description="Nome do ícone de acordo com o Lightning Design System."></property>
+            <property name="title" label="Título" type="String" default="Chamada de Serviço" description="Título do componente."></property>
+            <property name="method" label="Verbo de chamada da API" type="String" description="Verbo estipulado para a chamada de API"></property>
+            <property name="endpoint" label="URL" type="String" description="URL do endpoint à ser chamado"></property>
+        </targetConfig>
+    </targetConfigs>
+
+</LightningComponentBundle>
