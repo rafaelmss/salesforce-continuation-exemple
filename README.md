@@ -38,7 +38,7 @@ sfdx force:auth:web:login -r https://login.salesforce.com
 
 Crie uma Scratch ORG à partir de sua ORG de desenvolvimento (DevHub de estar habilitado)
 ```sh
-sfdx force:org:create -f config/enterprise-scratch-def.json
+sfdx force:org:create -f config/project-scratch-def.json
 ```
 
 Faça deploy do repositório para seu ambiente Scratch
