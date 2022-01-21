@@ -28,7 +28,7 @@ Para criar uma ORG de desenvolvedor e possível acessar [SALESFORCE DEV ORG](htt
 
 Faça o download ou clone deste repositório
 ```sh
-sfdx force:source:push -f
+git clone https://github.com/rafaelmss/salesforce-continuation-exemple.git
 ```
 
 Faça login em sua ORG de desenvolvimento à partir do VS Code
