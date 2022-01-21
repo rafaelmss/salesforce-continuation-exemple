@@ -22,7 +22,7 @@ Caso seja necessário trocar a URL de teste, é possível acessar o parâmetro n
 
 # Criação da ORG de Desenvolvimento
 
-Para criar uma ORG de desenvolvedor e possívecessar [SALESFORCE DEV ORG](https://developer.salesforce.com/signup), criar uma ORG própria e habilitar o recurso [DEVHUB](https://help.salesforce.com/s/articleView?id=sf.sfdx_setup_enable_devhub.htm&type=5)
+Para criar uma ORG de desenvolvedor e possível acessar [SALESFORCE DEV ORG](https://developer.salesforce.com/signup), criar uma ORG própria e habilitar o recurso [DEVHUB](https://help.salesforce.com/s/articleView?id=sf.sfdx_setup_enable_devhub.htm&type=5)
 
 ## Deploy
 
